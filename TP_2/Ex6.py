@@ -1,8 +1,8 @@
-L=[1,2,2,2,3,4,5,5]
-nb_supp=int(input("Entrer le nombre que vous voullez supprimer :"))
-nv_L=[]
-cpt =L.count(nb_supp)
-if  cpt == 1:
+L = [1, 2, 2, 2, 3, 4, 5, 5]
+nb_supp = int(input("Entrer le nombre que vous voullez supprimer :"))
+nv_L = []
+cpt = L.count(nb_supp)
+if cpt == 1:
     print(L)
 else:
     for i in range(len(L)):
@@ -12,10 +12,3 @@ else:
             if cpt == 1:
                 print(L)
                 break
-
-
-
-
-
-
-
